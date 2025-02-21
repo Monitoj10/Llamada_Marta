@@ -1,16 +1,118 @@
 <!DOCTYPE html>
 <html>
- <script> <elevenlabs-convai agent-id="FVTxUiLXvq4vQAvbtR8o"></elevenlabs-convai><script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript" </script>
-   <p class="color"/>
-      <a href="https://monito_pitalito" rel="nofollow"/>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Responsivo</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Diseño de columna para pantallas grandes */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .main {
+            flex: 3;
+            padding: 20px;
+        }
+
+        .sidebar {
+            flex: 1;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+
+            .container {
+                flex-direction: column;
+            }
+
+            .main {
+                flex: none;
+            }
+
+            .sidebar {
+                flex: none;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            header {
+                font-size: 18px;
+            }
+
+            nav a {
+                padding: 10px 15px;
+            }
+
+            .container {
+                margin: 10px;
+            }
+
+            .main, .sidebar {
+                padding: 10px;
+            }
+        }
+    </style>
 <head>
 <title>Mi página </title>
 <link type="text/css" rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
+      <script>
+        // Previene la visualización de la URL en la barra de estado al pasar el cursor por encima
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a');
+            links.forEach(link => {
+                link.addEventListener('mouseover', function(event) {
+                    // Establece un título vacío para evitar que se muestre la URL
+                    event.target.title = '';
+                });
+            });
+        });
+    </script>
+ <a href="https://www.example.com" onclick="event.preventDefault();"/>
+ <elevenlabs-convai agent-id="TabvOPis4Fj4aKgklmlO"></elevenlabs-convai><script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
 <!-- Inicio del código -->
-<p class="grande">¡LLAMA AL MAESTRO UNICORNIO NEGRO AHORA!</p>
- <p id="img"/><img src="https://www.unicornionegrocatemaco.com/wp-content/uploads/2024/09/WhatsApp-Image-2024-08-26-at-11.20.48.jpeg" width="200px" height="200px"/>
+<p class="grande">¡LLAMA A MARTA MOLINA AHORA!</p>
+ <p id="img"/><img src="https://brujamarthamolinajaramillo.com.mx/wp-content/uploads/bb-plugin/cache/IMG_0214-square-611b916ff932d7d6342e4b4eab7f5598-xv9yk3b2iadp.jpeg" width="200px" height="200px"/>
 <!-- Fin del código -->
 <script type="text/javascript" src="js/script.js"></script>
 </body>
