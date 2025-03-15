@@ -96,25 +96,7 @@
 <link type="text/css" rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-     <script>
-        // Lista de IPs permitidas
-        const ipPermitidas = ["181.174.228.77", "181.174.231.193"]; 
-
-        // Obtener la IP del usuario
-        fetch("https://api64.ipify.org?format=json")
-            .then(response => response.json())
-            .then(data => {
-                console.log("Tu IP es: " + data.ip);
-
-                // Si la IP no está en la lista, bloqueamos el acceso
-                if (!ipPermitidas.includes(data.ip)) {
-                    document.body.innerHTML = "<h1>Acceso Denegado Adquiere Tu LLamada Mono: 3108812767 </h1>";
-                }
-            })
-            .catch(error => {
-                console.error("Error obteniendo la IP:", error);
-            });
-    </script>
+    
       <script>
         // Previene la visualización de la URL en la barra de estado al pasar el cursor por encima
         document.addEventListener('DOMContentLoaded', function() {
